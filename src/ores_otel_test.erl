@@ -1,0 +1,1 @@
+-module(ores_otel_test). -export([language/0]). language() -> erlang.
