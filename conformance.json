@@ -1,0 +1,15 @@
+{
+  "language": "erlang",
+  "matrixVersion": "ores.otel.test-repository/v1",
+  "name": "ores-otel-log-erlang-test",
+  "requireExactHeadChecks": true,
+  "requireNoMonkeyPatching": true,
+  "runtime": "Erlang/OTP",
+  "sources": [
+    "ores-otel/ores.otel.log",
+    "ORESoftware/next-loggers.ts"
+  ],
+  "status": "seeded",
+  "testCommand": "rebar3 as test do compile, eunit",
+  "toolchain": "rebar3"
+}
